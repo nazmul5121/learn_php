@@ -19,3 +19,9 @@ d) descending order sorting by Key
  var_dump($x);
  echo "<br>";
  print_r($x);
+ echo "<br>";
+ array_push($x, "nazmul");
+ print_r($x);
+ echo "<br>";
+ array_shift($x);
+ print_r($x);
